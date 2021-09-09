@@ -61,7 +61,7 @@ except:
 if Config.SESSION_4:
     session4 = StringSession(str(Config.SESSION_4))
 else:
-    session4 = "hellbot4"
+    session4 = "TelegramUser4"
 
 try:
     bot4 = TelegramClient(
